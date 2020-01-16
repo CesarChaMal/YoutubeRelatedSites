@@ -248,8 +248,7 @@ public class YoutubeRelatedSites {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws MalformedURLException, IOException {
-		YoutubeRelatedSites yrs = new YoutubeRelatedSites(
-				new URL("https://www.youtube.com/user/WatchMojo/about?&ab_channel=WatchMojo.com"));
+		YoutubeRelatedSites yrs = new YoutubeRelatedSites(new URL("https://www.youtube.com/user/WatchMojo/about?&ab_channel=WatchMojo.com"));
 
 		System.out.println(yrs.getTwitter()[0].toString());
 
